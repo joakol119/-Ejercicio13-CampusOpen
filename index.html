@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container py-4">
+        <div class="bg-light p-5 rounded-3">
+            <div class="container-fluid">
+                <h1 class="display-5 fw-bold">jumbotron</h1>
+                <p class="col-md-8 fs-4">Ex ipsum esse consequat pariatur sit culpa. Consequat aliqua duis aliqua Lorem. Minim sint exercitation do voluptate ad proident irure aliqua elit proident id magna.</p>
+                <button class="btn-md btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-ejemplo">Example button</button>
+                <div class="modal" id="modal-ejemplo">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Este es el header </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Este es el Body</p>
+                            </div>
+                            <div class="modal-footer">
+                                <p>Este es el footer</p>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+        <form action="">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Introduce tu nombre:</label>
+                <input type="text" class="text form-control" placeholder="Ingresa tu nombre">
+                <div class="form-text">Introducir nombre y apellido</div>
+            </div>
+            <div class="mb-3">
+                <label for="number" class="form-label mt-4">Introduce tu numero de telefono:</label>
+                <input id="apellido" type="number" class="form-control" placeholder="+598">
+                <div class="form-number">Agregar codigo postal</div>
+            </div>
+            <div class="mb-3">
+            <label for="textarea" class="form-label">Comentarios:</label>
+            <input type="text" class="form-control form-control-md" id="textarea" placeholder="Sugerencias " aria-describedby="textarea">
+            <div id="textarea" class="form-text">Comparta sus comentarios con nosotros.</div>
+            <button class="btn btn-primary mt-4">Enviar</button>
+        </div>
+    </div>
+    <div class="container py-4">
+          <div class="card mt-4" style="width: 16rem">
+            <img src="data:image/jpeg;base64,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" alt="Imagen" class="card-img-top">
+            <div class="card-header">
+            Tarjeta de perfil
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Joaquin poblete</h5>
+                <p class="card-text">Tarea de Campus open.
+                    Seccion numero 12
+                    <ul>
+                        <li>Ejercicio 13</li>
+                    </ul>
+                </p>
+                <div class="card-footer">
+                joaquinpobletesteves@gmail.com
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+</script>
+</html>
